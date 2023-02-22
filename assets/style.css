@@ -1,0 +1,138 @@
+*{
+  font-family:monospace
+}
+
+
+:root {
+  --color: pink;
+  --shadow: 5px 5px 10px pink;
+}
+/* Header Image */
+img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* Typography */
+h1 {
+  text-shadow: var(--shadow);
+  font-size: 80px;
+  margin: 20px;
+
+}
+
+h2 {
+  font-size: 45px;
+  text-shadow: var(--shadow);
+  margin: 20px;
+  float: left;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+
+/* MAIN */
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+
+/* NAVABAR and Section */
+
+nav a:hover, section a:hover {
+  color: var(--color);
+  cursor: cell;
+}
+
+nav a, section a {
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 25px;
+  margin: auto;
+  
+}
+
+li {
+  display: inline;
+  padding: 10px;
+  
+}
+
+/* FIGURE */
+
+#figcenter {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+figcaption {
+  font-size: 20px;
+  padding: 25px;
+}
+
+#figcenter img {
+  width: 50%;
+}
+
+#figcenter img:hover {
+  transform: scale(1.2)  ;
+  -webkit-transform: scale(1.2)  ;
+  -moz-transform: scale(1.2)  ;
+  -ms-transform: scale(1.2)  ;
+  -o-transform: scale(1.2)  ;
+}
+
+
+/* Class */
+
+.container {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 100px;
+  padding: 50px;
+  border: 5px double black;
+  border-radius: 25px;
+  background-image: linear-gradient( 179.4deg,  rgba(253,240,233,1) 2.2%, rgba(255,194,203,1) 96.2% );
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+  
+  .container, img {
+    width: 50%
+    
+  }
+
+  h1, h2{
+    font-size: 150%;
+  }
+
+  nav {
+  display: none;
+  }
+
+}

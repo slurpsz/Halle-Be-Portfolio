@@ -6,7 +6,7 @@
 :root {
   --color: pink;
   --shadow: 5px 5px 10px pink;
-}
+} 
 /* Header Image */
 img {
   display: block;
@@ -23,6 +23,7 @@ h1 {
   text-shadow: var(--shadow);
   font-size: 80px;
   margin: 20px;
+  
 
 }
 
@@ -124,7 +125,6 @@ figcaption {
   
   .container, img {
     width: 50%
-    
   }
 
   h1, h2{

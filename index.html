@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Halle Be Portfolio</title>
   <link rel="stylesheet" href="assets/reset.css">
-  <link rel="stylesheet" href="assets/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Faustina:wght@300&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="assets/style.css">
 
   <style>
+    h1,
+    h2 {
 
-    h1, h2 {
-      
       font-family: 'Faustina', serif;
       font-family: 'Press Start 2P', cursive;
-    
+
     }
 
     h2:target {
       color: white;
       background: rgb(245, 219, 224);
     }
-
   </style>
 
 </head>
@@ -33,72 +35,77 @@
 
 <body>
 
-<!--HEADER-->
+  <!--HEADER-->
 
   <header>
     <h1>HALLE BE</h1>
-    <nav class="text-center">
+
+    <div class="tabs is-centered">
       <ul>
-        <li><a href="#about-me">ABOUT ME</a></li>
-        <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contacts">CONTACTS</a></li>
+        <li class="is-active"><a href="#about-me">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
-    </nav>
+    </div>
     <img src="assets/images/IMG_5147.jpg" alt="Portrait of me.">
   </header>
 
-
-<!--MAIN-->
-
-<main>
-
-<!--SECTION-->
-
-  <section>
-
+    <!-- About me -->
     <h2 id="about-me">ABOUT ME</h2>
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore,
+        minus sunt velit, error voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis
+        consectetur maiores hic similique facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
+        aperiam adipisci inventore, minus sunt velit, error
+        voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
+        facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt
+        velit, error
+        voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
+        facilis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt
+        velit, error
+        voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
+        facilis.</p>
+    </div>
 
-      <p class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt velit, error voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt velit, error
-      voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
-      facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt velit, error
-      voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
-      facilis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, aperiam adipisci inventore, minus sunt velit, error
-      voluptas debitis libero aliquid incidunt! Cum exercitationem expedita corporis consectetur maiores hic similique
-      facilis.</p>
-      
-  </section>
-
-  <section>
+    <!-- Projects -->
 
     <h2 id="projects">PROJECTS</h2>
 
-<!--FIGURE-->
+    <!--FIGURE-->
+    <div class="container figEl">
+      <div class="row">
 
-  <figure class="container" id="figcenter">
-    <a href="https://kyle-mucerino.github.io/Booking/"><img src="./assets/images/musicforecast.png" alt="Music Forecast"></a>
-      <figcaption>Music Forecast</figcaption>
-    <a href="#"><img src="https://i.pinimg.com/564x/e6/e0/95/e6e095d4f5e159a34557efb9de011f37.jpg" alt="Kuromi smiling"></a>
-      <figcaption>Project 2</figcaption>
-    <a href="#"><img src="https://i.pinimg.com/564x/ac/42/c0/ac42c00323f0d4acee8c00b3a85254e1.jpg" alt="Kuromi with heart eyes"></a>
-      <figcaption>Project 3</figcaption>
-  </figure>
- 
+        <figure id="figcenter">
+          <a href="https://kyle-mucerino.github.io/Music-Forecast/"><img src="./assets/images/musicforecast.png"
+              alt="Music Forecast"></a>
+          <figcaption>Music Forecast</figcaption>
+          <a href="#"><img src="https://i.pinimg.com/564x/e6/e0/95/e6e095d4f5e159a34557efb9de011f37.jpg"
+              alt="Kuromi smiling"></a>
+          <figcaption>Project 2</figcaption>
+          <a href="#"><img src="https://i.pinimg.com/564x/ac/42/c0/ac42c00323f0d4acee8c00b3a85254e1.jpg"
+              alt="Kuromi with heart eyes"></a>
+          <figcaption>Project 3</figcaption>
+        </figure>
+      </div>
+    </div>
 
-  </section>
 
-  <section>
+
+    <!-- Contacts -->
 
     <h2 id="contacts">CONTACTS</h2>
 
-    <article class="container">
+    <div class="container">
       <ul>
         <li><a href="mailto:khtbee@gmail.com">Gmail</a></li>
         <li><a href="https://github.com/slurpsz?tab=repositories">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/hallebe">LinkedIn</a></li>
       </ul>
-    </article>
-  </section>
-</main>
- 
-</body>
+    </div>
+  </body>
+
+  <footer class="text-center">
+    <a href="index.html">TOP</a>
+  </footer>
+
 </html>
